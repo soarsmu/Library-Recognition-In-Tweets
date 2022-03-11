@@ -1,0 +1,13 @@
+data/
+*.sh
+log/
+model/
+*.pyc
+*.log
+APIReal/api_recog/
+APIReal/models/
+*.pyc
+res/
+PTM/
+predictions/
+*.csv
