@@ -40,6 +40,8 @@ python BERT_stratified.py --variant BERT --seed 42
 
 For mixed- and cross- settings, the performance will be directly logged inside the log files. For within-library setting, in order to get the performance across five libraries, please run the script `./src/cal_within_result.py`.
 
+Note: we stated we used Sigmoid activation, and we implemented it with Softmax. In the binary classification setting, softmax is identical to sigmoid. [Reference](https://web.stanford.edu/~nanbhas/blog/sigmoid-softmax/#convergence)
+
 ## Baselines
 ### Strawman
 The script is also inside `./src`.
