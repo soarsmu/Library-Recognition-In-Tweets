@@ -58,7 +58,7 @@ python Prasetyo-approach --variant cross
 ```
 
 ### APIReal
-Please refer to `./APIReal/README.md` for more details.
+Please refer to `./APIReal/README.md` for more details. You can find the original repo [here](https://github.com/baolingfeng/APIExing).
 
 After getting the predictions, please run the script inside `./src` to calculate precision, recall and F1.
 
@@ -66,5 +66,5 @@ After getting the predictions, please run the script inside `./src` to calculate
 python cal_apireal_result.py
 ```
 
-# Predicted results from PTM
-You can find the predictions from PTM here: `./predictions/`
+# Acknowledgement
+We appreciate APIReal authors made their replication package public.
